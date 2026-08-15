@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="高等学校化学・化学基礎 学習アプリポータル">
+  <title>化学 学習アプリポータル</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+      --accent-soft: #eff6ff;
+      --shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   "Noto Sans JP", "Hiragino Kaku Gothic ProN",
+                   Meiryo, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 56px 20px 42px;
+      background: linear-gradient(135deg, #1d4ed8, #2563eb);
+      color: #fff;
+    }
+
+    .hero {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      font-size: 0.9rem;
+      opacity: 0.85;
+      letter-spacing: 0.08em;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      line-height: 1.2;
+    }
+
+    .hero p {
+      max-width: 760px;
+      margin: 18px 0 0;
+      font-size: 1.05rem;
+      opacity: 0.94;
+    }
+
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 36px 20px 60px;
+    }
+
+    .section-title {
+      margin: 0 0 18px;
+      font-size: 1.55rem;
+    }
+
+    .section-description {
+      margin: -8px 0 24px;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin-bottom: 42px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .category {
+      display: inline-block;
+      align-self: flex-start;
+      margin-bottom: 12px;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 1.18rem;
+    }
+
+    .card p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: auto;
+      padding: 10px 15px;
+      border-radius: 10px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    .button:hover {
+      filter: brightness(0.92);
+    }
+
+    .notice {
+      padding: 20px 22px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: var(--surface);
+    }
+
+    .notice p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    footer {
+      padding: 24px 20px 36px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding-top: 42px;
+      }
+
+      main {
+        padding-top: 28px;
+      }
+
+      .card {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <p class="eyebrow">HIGH SCHOOL CHEMISTRY / CHEMISTRY BASIC</p>
+      <h1>化学 学習アプリポータル</h1>
+      <p>
+        高等学校化学・化学基礎の学習に利用できるWebアプリをまとめています。
+        学習したい内容を選んでください。
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2 class="section-title">化学基礎</h2>
+      <div class="grid">
+        <article class="card">
+          <span class="category">化学基礎</span>
+          <h3>mol計算</h3>
+          <p>
+            質量、物質量、気体の体積、粒子数、モル濃度の関係を
+            段階的に練習します。
+          </p>
+          <a class="button"
+             href="https://k2ka3711.github.io/chem_app_calc_mol/">
+            アプリを開く
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">化学</h2>
+
+      <h3 class="section-title" style="font-size: 1.25rem; margin-top: 8px;">電池・電気分解</h3>
+      <div class="grid">
+        <article class="card">
+          <span class="category">電池・電気分解 / 概念</span>
+          <h3>電池の概念</h3>
+          <p>
+            電池内部の酸化還元反応、電子・イオンの移動、
+            放電・充電などを視覚的に学習します。
+          </p>
+          <a class="button"
+             href="https://k2ka3711.github.io/chem_app_concept_battery/">
+            アプリを開く
+          </a>
+        </article>
+
+        <article class="card">
+          <span class="category">電池・電気分解 / 概念</span>
+          <h3>電気分解概念</h3>
+          <p>
+            電極で起こる酸化・還元反応や半反応式を、
+            クイズ形式で確認します。
+          </p>
+          <a class="button"
+             href="https://k2ka3711.github.io/chem_app_concept_electrolysis/">
+            アプリを開く
+          </a>
+        </article>
+
+        <article class="card">
+          <span class="category">電池・電気分解 / 量的関係</span>
+          <h3>電池・電気分解の量的関係</h3>
+          <p>
+            電流・時間・電気量、電子の物質量、反応物質の物質量を
+            段階的に計算します。
+          </p>
+          <a class="button"
+             href="https://k2ka3711.github.io/chem_app_calc_electrochem/">
+            アプリを開く
+          </a>
+        </article>
+      </div>
+
+      <h3 class="section-title" style="font-size: 1.25rem; margin-top: 8px;">気体</h3>
+      <div class="grid">
+        <article class="card">
+          <span class="category">気体 / 概念</span>
+          <h3>気体の法則 ― 概念</h3>
+          <p>
+            ボイルの法則、シャルルの法則、ボイル・シャルルの法則、
+            気体の状態方程式、ドルトンの分圧の法則を学習します。
+          </p>
+          <a class="button"
+             href="https://k2ka3711.github.io/chem_app_concept_gas-laws/">
+            アプリを開く
+          </a>
+        </article>
+
+        <article class="card">
+          <span class="category">気体 / 計算</span>
+          <h3>気体の法則 ― 計算</h3>
+          <p>
+            気体の法則、状態方程式、分圧の法則について
+            計算問題を反復練習します。
+          </p>
+          <a class="button"
+             href="https://k2ka3711.github.io/chem_app_calc_gas-laws/">
+            アプリを開く
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="notice">
+      <p>
+        各アプリは独立したWebアプリとして管理されています。
+        アプリの詳しい使い方や更新情報は、それぞれのREADMEを確認してください。
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Chemistry Learning Apps
+  </footer>
+</body>
+</html>
