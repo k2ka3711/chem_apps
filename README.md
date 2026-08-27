@@ -26,6 +26,7 @@
 
 - **気体の法則 ― 概念**
 - **気液平衡の概念**
+- **希薄溶液の性質の概念**
 - **気体の法則 ― 計算**
 
 ## 利用方法
@@ -49,6 +50,7 @@ chem_apps/
 ```text
 chem_app_concept_gas-laws
 chem_app_concept_vapor-liquid-equilibrium
+chem_app_concept_colligative-properties
 chem_app_concept_battery
 chem_app_concept_electrolysis
 chem_app_calc_mol
@@ -67,9 +69,16 @@ chem_app_calc_gas-laws
 
 ## バージョン
 
-現在のバージョン：**v1.1.0**
+現在のバージョン：**v1.2.0**
 
 ## 更新情報（リリースノート）
+
+### v1.2.0 — 2026-08-27
+
+- **希薄溶液の性質の概念理解**学習アプリをポータルに追加
+- 「化学」→「気体」の項目に「希薄溶液の性質の概念」を追加
+- GitHub Pagesへのリンクを実装
+- 掲載アプリ一覧および関連リポジトリ一覧を更新
 
 ### v1.1.0 — 2026-08-19
 
@@ -92,6 +101,7 @@ chem_app_calc_gas-laws
 
 - [chem_app_concept_gas-laws](https://github.com/k2ka3711/chem_app_concept_gas-laws)
 - [chem_app_concept_vapor-liquid-equilibrium](https://github.com/k2ka3711/chem_app_concept_vapor-liquid-equilibrium)
+- [chem_app_concept_colligative-properties](https://github.com/k2ka3711/chem_app_concept_colligative-properties)
 - [chem_app_concept_battery](https://github.com/k2ka3711/chem_app_concept_battery)
 - [chem_app_concept_electrolysis](https://github.com/k2ka3711/chem_app_concept_electrolysis)
 - [chem_app_calc_mol](https://github.com/k2ka3711/chem_app_calc_mol)
