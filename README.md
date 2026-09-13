@@ -22,6 +22,10 @@
 - **電気分解の概念**
 - **電池・電気分解の量的関係**
 
+#### 状態変化
+
+- **気液平衡・蒸気圧・沸騰**
+
 #### 気体
 
 - **気体の法則 ― 概念**
@@ -53,6 +57,7 @@ chem_apps/
 ```text
 chem_app_concept_gas-laws
 chem_app_concept_vapor-liquid-equilibrium
+chem_app_concept_vapor-liquid-equilibrium-basic
 chem_app_concept_colligative-properties
 chem_app_concept_battery
 chem_app_concept_electrolysis
@@ -72,9 +77,17 @@ chem_app_calc_gas-laws
 
 ## バージョン
 
-現在のバージョン：**v1.2.1**
+現在のバージョン：**v1.3.0**
 
 ## 更新情報（リリースノート）
+
+### v1.3.0 — 2026-09-13
+
+- **気液平衡・蒸気圧・沸騰**の概念理解学習アプリをポータルに追加
+- 「化学」→「状態変化」の分野を新設
+- 「電池・電気分解」と「気体」の間に「状態変化」を配置
+- 新規アプリのGitHub Pagesへのリンクを実装
+- 掲載アプリ一覧および関連リポジトリ一覧を更新
 
 ### v1.2.1 — 2026-08-27
 
@@ -111,6 +124,7 @@ chem_app_calc_gas-laws
 
 - [chem_app_concept_gas-laws](https://github.com/k2ka3711/chem_app_concept_gas-laws)
 - [chem_app_concept_vapor-liquid-equilibrium](https://github.com/k2ka3711/chem_app_concept_vapor-liquid-equilibrium)
+- [chem_app_concept_vapor-liquid-equilibrium-basic](https://github.com/k2ka3711/chem_app_concept_vapor-liquid-equilibrium-basic)
 - [chem_app_concept_colligative-properties](https://github.com/k2ka3711/chem_app_concept_colligative-properties)
 - [chem_app_concept_battery](https://github.com/k2ka3711/chem_app_concept_battery)
 - [chem_app_concept_electrolysis](https://github.com/k2ka3711/chem_app_concept_electrolysis)
