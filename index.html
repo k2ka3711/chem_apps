@@ -20,12 +20,12 @@
     .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px; margin-bottom:42px; }
     .card { display:flex; flex-direction:column; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:22px; box-shadow:var(--shadow); }
     .category { display:inline-block; align-self:flex-start; margin-bottom:12px; padding:3px 9px; border-radius:999px; background:var(--accent-soft); color:var(--accent); font-size:.78rem; font-weight:700; }
+    .category.calc { background:#fef3c7; color:#92400e; }
+    .nw { white-space:nowrap; }
     .card h3 { margin:0 0 8px; font-size:1.18rem; }
     .card p { margin:0 0 18px; color:var(--muted); font-size:.94rem; }
     .button { display:inline-block; margin-top:auto; padding:10px 15px; border-radius:10px; background:var(--accent); color:#fff; text-decoration:none; text-align:center; font-weight:700; }
     .button:hover { filter:brightness(.92); }
-    .notice { padding:20px 22px; border:1px solid var(--border); border-radius:14px; background:var(--surface); }
-    .notice p { margin:0; color:var(--muted); }
     footer { padding:24px 20px 36px; color:var(--muted); text-align:center; font-size:.85rem; }
     @media (max-width:600px) { header{padding-top:42px;} main{padding-top:28px;} .card{padding:18px;} }
   </style>
@@ -42,34 +42,34 @@
     <section>
       <h2 class="section-title">化学基礎</h2>
       <div class="grid">
-        <article class="card"><span class="category">化学基礎 / 計算</span><h3>mol計算</h3><p>質量、物質量、気体の体積、粒子数、モル濃度の関係を段階的に練習します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_calc_mol/">アプリを開く</a></article>
+        <article class="card"><span class="category calc">化学基礎 / 計算</span><h3>mol計算</h3><p>質量・気体の体積・粒子数・モル濃度と物質量（mol）の換算を、基本から総合問題まで段階的に練習します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_calc_mol/" aria-label="mol計算 を開く">アプリを開く</a></article>
       </div>
     </section>
     <section>
       <h2 class="section-title">化学</h2>
       <h3 class="subsection-title">電池・電気分解</h3>
       <div class="grid">
-        <article class="card"><span class="category">電池・電気分解 / 概念</span><h3>電池の概念</h3><p>電池内部の酸化還元反応、電子・イオンの移動、放電・充電などを視覚的に学習します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_concept_battery/">アプリを開く</a></article>
-        <article class="card"><span class="category">電池・電気分解 / 概念</span><h3>電気分解の概念</h3><p>電極で起こる酸化・還元反応や半反応式を、クイズ形式で確認します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_concept_electrolysis/">アプリを開く</a></article>
-        <article class="card"><span class="category">電池・電気分解 / 計算</span><h3>電池・電気分解の量的関係</h3><p>電流・時間・電気量、電子の物質量、反応物質の物質量を段階的に計算します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_calc_electrochem/">アプリを開く</a></article>
+        <article class="card"><span class="category">電池・電気分解 / 概念</span><h3>電池の概念</h3><p>ダニエル電池・鉛蓄電池・リチウムイオン電池・燃料電池の内部で起こる反応と、電子・イオンの動きを、アニメーションとクイズで学習します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_concept_battery/" aria-label="電池の概念 を開く">アプリを開く</a></article>
+        <article class="card"><span class="category">電池・電気分解 / 概念</span><h3>電気分解の概念</h3><p>水溶液と電極の組合せから陽極・陰極で起こる反応を判断し、半反応式をクイズ形式で確認します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_concept_electrolysis/" aria-label="電気分解の概念 を開く">アプリを開く</a></article>
+        <article class="card"><span class="category calc">電池・電気分解 / 計算</span><h3>電池・電気分解の量的関係</h3><p>電流・時間・電気量、電子の物質量、反応する物質の物質量の関係を、段階的に計算練習します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_calc_electrochem/" aria-label="電池・電気分解の量的関係 を開く">アプリを開く</a></article>
       </div>
       <h3 class="subsection-title">状態変化</h3>
       <div class="grid">
-        <article class="card"><span class="category">状態変化 / 概念</span><h3>気液平衡・蒸気圧・沸騰</h3><p>気液平衡、蒸気圧、沸騰のつながりを、粒子の動きから視覚的に学習します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_concept_vapor-liquid-equilibrium-basic/">アプリを開く</a></article>
+        <article class="card"><span class="category">状態変化 / 概念</span><h3>気液平衡・蒸気圧・沸騰</h3><p>蒸発と凝縮、気液平衡、蒸気圧曲線、沸騰の条件を、粒子の動きから順にたどって学習します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_concept_vapor-liquid-equilibrium-basic/" aria-label="気液平衡・蒸気圧・沸騰 を開く">アプリを開く</a></article>
       </div>
       <h3 class="subsection-title">気体</h3>
       <div class="grid">
-        <article class="card"><span class="category">気体 / 概念</span><h3>気体の法則 ― 概念</h3><p>ピストン操作と分子の衝突アニメーションを通じて、ボイル・シャルル・アボガドロの法則と状態方程式を直感的に学習します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_concept_gas-laws/">アプリを開く</a></article>
-        <article class="card"><span class="category">気体 / 概念</span><h3>混合気体の概念</h3><p>分圧の正体、ドルトンの分圧の法則、モル分率、コックを開けた気体混合や温度変化平衡をシミュレーションで学習します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_concept_gas-mixtures/">アプリを開く</a></article>
-        <article class="card"><span class="category">気体 / 概念</span><h3>気液平衡の概念</h3><p>気体分子の動きから液化、気液平衡、飽和蒸気圧までのつながりを視覚的に学習します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_concept_vapor-liquid-equilibrium/">アプリを開く</a></article>
-        <article class="card"><span class="category">気体 / 計算</span><h3>気体の法則 ― 計算</h3><p>気体の法則、状態方程式、分圧の法則について計算問題を反復練習します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_calc_gas-laws/">アプリを開く</a></article>
+        <article class="card"><span class="category">気体 / 概念</span><h3>気体の法則 ― 概念</h3><p>ピストン操作と分子の衝突のアニメーションで、ボイル・シャルル・アボガドロの法則から状態方程式までを直感的に学習します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_concept_gas-laws/" aria-label="気体の法則 ― 概念 を開く">アプリを開く</a></article>
+        <article class="card"><span class="category">気体 / 概念</span><h3>混合気体の概念</h3><p>分圧の正体、ドルトンの分圧の法則、モル分率を学習します。コックを開けて2つの容器の気体を混ぜる実験や、温度の異なる容器をつなぐ実験もできます。</p><a class="button" href="https://k2ka3711.github.io/chem_app_concept_gas-mixtures/" aria-label="混合気体の概念 を開く">アプリを開く</a></article>
+        <article class="card"><span class="category">気体 / 概念</span><h3>理想気体と実在気体</h3><p>分子の大きさと分子間力が圧力や体積をどう変えるかを分子モデルで確かめ、どんな条件で実在気体が理想気体に近づくかを学習します（発展：ファンデルワールスの状態方程式）。</p><a class="button" href="https://k2ka3711.github.io/chem_app_concept_ideal-vs-real-gas/" aria-label="理想気体と実在気体 を開く">アプリを開く</a></article>
+        <article class="card"><span class="category">気体 / 概念</span><h3>気液平衡の概念 ― グラフで読む</h3><p>気体を冷やしたり圧縮したりして液化が始まる点を、分子の動きと <span class="nw"><i>P</i>–<i>T</i></span>・<span class="nw"><i>P</i>–<i>V</i></span>・<span class="nw"><i>V</i>–<i>T</i></span> グラフを連動させて学習します。状態方程式と飽和蒸気圧が成り立つ範囲を見分けます。</p><a class="button" href="https://k2ka3711.github.io/chem_app_concept_vapor-liquid-equilibrium/" aria-label="気液平衡の概念 ― グラフで読む を開く">アプリを開く</a></article>
+        <article class="card"><span class="category calc">気体 / 計算</span><h3>気体の法則 ― 計算</h3><p>ボイルの法則、シャルルの法則、ボイル・シャルルの法則、気体の状態方程式、分圧の法則の5分野から選んで、計算問題を反復練習します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_calc_gas-laws/" aria-label="気体の法則 ― 計算 を開く">アプリを開く</a></article>
       </div>
       <h3 class="subsection-title">溶液</h3>
       <div class="grid">
-        <article class="card"><span class="category">溶液 / 概念</span><h3>希薄溶液の性質の概念</h3><p>蒸気圧降下、沸点上昇、凝固点降下、浸透圧など、溶液の性質を粒子の視点から学習します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_concept_colligative-properties/">アプリを開く</a></article>
+        <article class="card"><span class="category">溶液 / 概念</span><h3>希薄溶液の性質の概念</h3><p>蒸気圧降下・沸点上昇・凝固点降下・浸透圧が起こる理由を、溶質粒子が溶媒粒子の動きをどう変えるかから学習します。</p><a class="button" href="https://k2ka3711.github.io/chem_app_concept_colligative-properties/" aria-label="希薄溶液の性質の概念 を開く">アプリを開く</a></article>
       </div>
     </section>
-    <section class="notice"><p>各アプリは独立したWebアプリとして管理されています。アプリの詳しい使い方や更新情報は、それぞれのREADMEを確認してください。</p></section>
   </main>
   <footer>&copy; 2026 Chemistry Learning Apps</footer>
 </body>
