@@ -30,6 +30,7 @@
 
 - **気体の法則 ― 概念**
 - **混合気体の概念**
+- **理想気体と実在気体**
 - **気液平衡の概念**
 - **気体の法則 ― 計算**
 
@@ -58,6 +59,7 @@ chem_apps/
 ```text
 chem_app_concept_gas-laws
 chem_app_concept_gas-mixtures
+chem_app_concept_ideal-vs-real-gas
 chem_app_concept_vapor-liquid-equilibrium
 chem_app_concept_vapor-liquid-equilibrium-basic
 chem_app_concept_colligative-properties
@@ -79,9 +81,16 @@ chem_app_calc_gas-laws
 
 ## バージョン
 
-現在のバージョン：**v1.4.0**
+現在のバージョン：**v1.5.0**
 
 ## 更新情報（リリースノート）
+
+### v1.5.0 — 2026-10-27
+
+- **理想気体と実在気体**（分子モデル・圧縮率因子 *Z*・ファンデルワールスの状態方程式）学習アプリをポータルに追加
+- 「化学」→「気体」の項目に「理想気体と実在気体」を追加（「混合気体の概念」の次）
+- 新規アプリのGitHub Pagesへのリンクを実装
+- 掲載アプリ一覧および関連リポジトリ一覧を更新
 
 ### v1.4.0 — 2026-09-29
 
@@ -133,6 +142,7 @@ chem_app_calc_gas-laws
 
 - [chem_app_concept_gas-laws](https://github.com/k2ka3711/chem_app_concept_gas-laws)
 - [chem_app_concept_gas-mixtures](https://github.com/k2ka3711/chem_app_concept_gas-mixtures)
+- [chem_app_concept_ideal-vs-real-gas](https://github.com/k2ka3711/chem_app_concept_ideal-vs-real-gas)
 - [chem_app_concept_vapor-liquid-equilibrium](https://github.com/k2ka3711/chem_app_concept_vapor-liquid-equilibrium)
 - [chem_app_concept_vapor-liquid-equilibrium-basic](https://github.com/k2ka3711/chem_app_concept_vapor-liquid-equilibrium-basic)
 - [chem_app_concept_colligative-properties](https://github.com/k2ka3711/chem_app_concept_colligative-properties)
